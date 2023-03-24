@@ -48,8 +48,8 @@ const ThemeSettings = () => {
               id="dark"
               name="theme"
               value="Dark"
-              onChange={setMode}
               className="cursor-pointer"
+              onChange={setMode}
               checked={currentMode === 'Dark'}
             />
             {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
