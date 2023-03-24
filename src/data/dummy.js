@@ -547,10 +547,6 @@ export const links = [
         icon: <BsBarChart />,
       },
       {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
-      },
-      {
         name: 'stacked',
         icon: <AiOutlineBarChart />,
       },
