@@ -66,27 +66,27 @@ const App = () => {
               <Routes>
                 {/* dashboard  */}
                 <Route path="/Dashboard" element={(<Ecommerce />)} />
-                <Route path="/ecommerce" element={(<Ecommerce />)} />
+                <Route path="/Dashboard/ecommerce" element={(<Ecommerce />)} />
 
                 {/* pages  */}
-                <Route path="/orders" element={<Orders />} />
-                <Route path="/employees" element={<Employees />} />
-                <Route path="/customers" element={<Customers />} />
+                <Route path="/Dashboard/orders" element={<Orders />} />
+                <Route path="/Dashboard/employees" element={<Employees />} />
+                <Route path="/Dashboard/customers" element={<Customers />} />
 
                 {/* apps  */}
-                <Route path="/kanban" element={<Kanban />} />
-                <Route path="/editor" element={<Editor />} />
-                <Route path="/calendar" element={<Calendar />} />
-                <Route path="/color-picker" element={<ColorPicker />} />
+                <Route path="/Dashboard/kanban" element={<Kanban />} />
+                <Route path="/Dashboard/editor" element={<Editor />} />
+                <Route path="/Dashboard/calendar" element={<Calendar />} />
+                <Route path="/Dashboard/color-picker" element={<ColorPicker />} />
 
                 {/* charts  */}
-                <Route path="/line" element={<Line />} />
-                <Route path="/area" element={<Area />} />
-                <Route path="/bar" element={<Bar />} />
-                <Route path="/pie" element={<Pie />} />
-                <Route path="/financial" element={<Financial />} />
-                <Route path="/color-mapping" element={<ColorMapping />} />
-                <Route path="/stacked" element={<Stacked />} />
+                <Route path="/Dashboard/line" element={<Line />} />
+                <Route path="/Dashboard/area" element={<Area />} />
+                <Route path="/Dashboard/bar" element={<Bar />} />
+                <Route path="/Dashboard/pie" element={<Pie />} />
+                <Route path="/Dashboard/financial" element={<Financial />} />
+                <Route path="/Dashboard/color-mapping" element={<ColorMapping />} />
+                <Route path="/Dashboard/stacked" element={<Stacked />} />
 
               </Routes>
             </div>
